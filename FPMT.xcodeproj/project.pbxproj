@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0547E2942334534A00203795 /* RegisterScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0547E2932334534A00203795 /* RegisterScreenViewController.swift */; };
 		054E7047232E05D500E776D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E7046232E05D500E776D2 /* AppDelegate.swift */; };
 		054E7049232E05D500E776D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054E7048232E05D500E776D2 /* ViewController.swift */; };
 		054E704C232E05D500E776D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 054E704A232E05D500E776D2 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0547E2932334534A00203795 /* RegisterScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreenViewController.swift; sourceTree = "<group>"; };
 		054E7043232E05D400E776D2 /* FPMT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FPMT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		054E7046232E05D500E776D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		054E7048232E05D500E776D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0547E29023344CB900203795 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0547E29123344CD400203795 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				054E7046232E05D500E776D2 /* AppDelegate.swift */,
+				054E7048232E05D500E776D2 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0547E29223344CF400203795 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				054E704F232E05D600E776D2 /* LaunchScreen.storyboard */,
+				054E704A232E05D500E776D2 /* Main.storyboard */,
+				0547E2932334534A00203795 /* RegisterScreenViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		054E703A232E05D400E776D2 = {
 			isa = PBXGroup;
 			children = (
@@ -54,11 +82,10 @@
 		054E7045232E05D400E776D2 /* FPMT */ = {
 			isa = PBXGroup;
 			children = (
-				054E7046232E05D500E776D2 /* AppDelegate.swift */,
-				054E7048232E05D500E776D2 /* ViewController.swift */,
-				054E704A232E05D500E776D2 /* Main.storyboard */,
+				0547E29123344CD400203795 /* Controller */,
+				0547E29223344CF400203795 /* View */,
+				0547E29023344CB900203795 /* Model */,
 				054E704D232E05D600E776D2 /* Assets.xcassets */,
-				054E704F232E05D600E776D2 /* LaunchScreen.storyboard */,
 				054E7052232E05D600E776D2 /* Info.plist */,
 			);
 			path = FPMT;
@@ -135,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0547E2942334534A00203795 /* RegisterScreenViewController.swift in Sources */,
 				054E7049232E05D500E776D2 /* ViewController.swift in Sources */,
 				054E7047232E05D500E776D2 /* AppDelegate.swift in Sources */,
 			);
